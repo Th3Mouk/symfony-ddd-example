@@ -1,0 +1,7 @@
+users_all:
+    path: /users
+    controller: App\Controller\UserController::all
+
+users_get:
+    path: /users/{identifier<\d+>}
+    controller: App\Controller\UserController::get
